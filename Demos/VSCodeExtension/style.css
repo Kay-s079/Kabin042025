@@ -1,0 +1,20 @@
+/* This is a css comment */
+
+
+
+
+body
+{
+background-color:#EBDBFF ;
+}
+h1
+{
+    color: #c290fe;
+    background-color: white;
+    padding:1rem;
+    font-family:'Courier New', Courier, monospace ;
+}
+ul
+{
+    font-family:'Courier New', Courier, monospace
+}

@@ -1,0 +1,112 @@
+html
+{
+scroll-behavior: smooth;
+}
+
+
+body {
+background-color:rgb(27,7,6);
+}
+
+.container {
+min-height: 10rem;
+max-width: 70rem;
+margin: auto;
+background-color:hsl(35, 75%, 76%);
+padding:1rem;
+
+}
+
+#pageheader {
+background-color:rgb(228,158,59);
+min-height: auto;
+padding: 1rem;
+}
+#pageheader .container
+{
+    background-color:none;
+    min-height: auto;
+}
+#logo
+{
+    width:6.25rem;
+    height:6.25rem;
+    background-color:#FEB9CB ;
+    background-image:url(Images/Logo.jpg);
+}
+
+#media {
+background-color:rgb(209,67,48);
+min-height: 10rem;
+padding: 1rem;
+background-image:url(Images/CoralineCircus.jpg) ;
+background-size: cover;
+aspect-ratio: 16 / 9;
+}
+
+#career {
+background-color:rgb(209,67,48);
+
+min-height: 10rem;
+padding: 1rem;
+color: rgb(147,68,45);
+}
+#pagecontent {
+background-color:rgb(228,158,59);
+min-height: 10rem;
+padding: 1rem;
+color: rgb(147,68,45);
+}
+
+
+
+#semester1 {
+background-color:rgb(228,158,59);
+min-height: 10rem;
+padding: 1rem;
+color:rgb(147,68,45);
+}
+
+#semester2 {
+background-color:rgb(209,67,48);
+min-height: 10rem;
+padding: 1rem;
+color: rgb(147,68,45);
+}
+
+#pagefooter {
+background-color:rgb(228,158,59);
+min-height: 10rem;
+padding: 1rem;
+color: rgb(147,68,45);
+}
+
+#subfooter {
+background-color:rgb(209,67,48);
+min-height: 10rem;
+padding: 1rem;
+color:rgb(147,68,45);
+}
+
+audio {
+display: block;
+margin: auto;
+background-color: #f77fa9;
+border: 5px solid  #f3b2c8;
+}
+blockquote
+{
+    padding:1rem;
+    width: 50%;
+    margin: auto;
+    font-size:1.25rem;
+}
+blockquote + span 
+{
+    padding:1rem;
+display: block;
+margin:0 auto;
+width:50%;
+text-align: right;
+
+}
