@@ -5,20 +5,21 @@ scroll-behavior: smooth;
 
 
 body {
-background-color:rgb(27,7,6);
+background-color:021941;
 }
 
 .container {
 min-height: 10rem;
 max-width: 70rem;
 margin: auto;
-background-color:hsl(35, 75%, 76%);
+background-color:#EA983D;
 padding:1rem;
+color: #5D3238;
 
 }
 
 #pageheader {
-background-color:rgb(228,158,59);
+background-color:#D34733;
 min-height: auto;
 padding: 1rem;
 }
@@ -31,7 +32,7 @@ padding: 1rem;
 {
     width:6.25rem;
     height:6.25rem;
-    background-color:#FEB9CB ;
+    background-color:#D7631A ;
     background-image:url(Images/Logo.jpg);
 }
 
@@ -45,53 +46,81 @@ aspect-ratio: 16 / 9;
 }
 
 #career {
-background-color:rgb(209,67,48);
+background-color:#52210E;
 
 min-height: 10rem;
 padding: 1rem;
 color: rgb(147,68,45);
 }
 #pagecontent {
-background-color:rgb(228,158,59);
+
+background-color:#D7631A   ;
 min-height: 10rem;
 padding: 1rem;
 color: rgb(147,68,45);
 }
 
-
+#pageheader .container{
+    min-height: auto;
+}
+#pageheader nav {
+    text-align: center;
+}
+#paheheader nav ul {
+   text-align: none;
+   margin:0;
+   padding:0;
+}
+#pageheader nav ul li {
+    border:2px solid silver;
+    padding:1rem;
+    background-color: ;
+    margin:2px;
+    border-radius: 10px;
+}
+#pageheader nav ul li:hover
+{
+    background-color: hsl(12, 65%, 66%);
+}
 
 #semester1 {
-background-color:rgb(228,158,59);
+background-color:#D7631A;
 min-height: 10rem;
 padding: 1rem;
 color:rgb(147,68,45);
 }
 
 #semester2 {
-background-color:rgb(209,67,48);
+background-color:#52210E;
 min-height: 10rem;
 padding: 1rem;
 color: rgb(147,68,45);
 }
 
 #pagefooter {
-background-color:rgb(228,158,59);
-min-height: 10rem;
+background-color:hsl(32, 69%, 48%);
+min-height: auto;
 padding: 1rem;
-color: rgb(147,68,45);
+color: #5D3238;
 }
-#aifooter{
-background-color: #f3b2c8;
+
+#pagefooter .container{
+    text-align: center;
+    min-height: 20px;
+}
+
+#aitools{
+background-color:hsl(32, 69%, 48%);
 padding: 1rem;
 text-align: center;
 }
 
-#aifooter{
+#aitools .container{
     text-align: center;
-    min-height: auto;
+    min-height: 20px;
 }
 #subfooter {
-background-color:rgb(209,67,48);
+background-color:hsl(12, 58%, 68%);
 min-height: 10rem;
 padding: 1rem;
 color:rgb(147,68,45);
@@ -117,5 +146,22 @@ display: block;
 margin:0 auto;
 width:50%;
 text-align: right;
+}
+@media screen and (min-width:600px) {
+#pageheader nav ul {
+    background-color:none;
+    margin-top: 2rem;
+}
+#pageheader nav ul li {
+    display:inline-block 
+}
+
+#pagecontent
+{background-color:#D7631A;}    
+#career {
 
 }
+
+}
+
+
