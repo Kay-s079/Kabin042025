@@ -66,15 +66,16 @@ color: rgb(147,68,45);
 #pageheader nav {
     text-align: center;
 }
-#paheheader nav ul {
-   text-align: none;
-   margin:0;
-   padding:0;
+
+#topnav ul {
+    list-style-type: none;
+    text-align: none;
+    margin:0;
+    padding:0;    
 }
 #pageheader nav ul li {
     border:2px solid silver;
     padding:1rem;
-    background-color: ;
     margin:2px;
     border-radius: 10px;
 }
