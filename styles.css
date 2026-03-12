@@ -150,6 +150,9 @@ margin: auto;
 background-color:#f3b2c8;
 border: 5px solid  #f77fa9; 
 }
+#semester1 a {
+    color: #7AB5C2;
+}
 @media screen (min-width:500px){
 body{
     background-color:pink;
