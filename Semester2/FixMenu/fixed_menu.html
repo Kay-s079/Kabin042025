@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Menu</title>
+    <style>
+        /* Moible First CSS */
+        html
+        {
+            /* Temporary - Delete */
+            Height:200px
+        }
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:#8DA588; 
+            margin:0;
+        }
+        #pageheader 
+        {
+            background-color: #e3d091;
+            padding:1rem;
+            /* Default */
+            position: static;
+        
+        }
+        #logo {
+            height:100px;
+            width:100px;
+            margin:auto;
+            display: block;
+        }
+        img 
+        {
+            width:100px;
+        }
+        #fblogoheader 
+        {
+            background-color: #dab1b8;
+            border-radius: 10px;
+        }
+        #pageheader h1 {
+            text-align: center;
+            color: #766757;
+            /* Remove */
+            background-color: white;
+            border-radius: 10px;
+        }
+        #pageheader nav {
+            background-color: #dab1b8;
+            padding:.5rem;
+            border-radius: 10px;
+        }
+        #pageheader ul {
+            padding:.5rem;
+            list-style-type:none;
+            background-color:hsl(110, 14%, 59%);
+            border-radius: 10px;
+            /* Flexbox component */
+            display: flex;
+            flex-direction:column;
+            gap:.5rem;
+        }
+        #pageheader li 
+        {
+            text-align: center;
+            border: 2px dotted #766757;
+            padding: .5rem;
+            background-color:hwb(111 64% 25%) ;
+        }
+        #pageheader a{
+            color: #766757;
+            text-decoration: none;
+        }
+        /* None header elements */
+        main {
+            padding: 1rem;
+        }
+        p{
+            list-style: 1.5;
+            color: #766757;
+        }
+        h2{
+            color: #766757;
+        }
+        @media screen and (min-width:650px){
+        
+        body
+            {
+                background-color: #dab1b8;
+            }
+            #pageheader
+            {
+                position: fixed;
+                top:0px;
+                left:0px;
+                right:0px;
+                /* Flexbox Component */
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            #fblogoheader
+            {
+                /* flexbox component */
+                display: flex;
+                gap: 1rem;
+                align-items: center;
+                
+            }
+            #pageheader ul {
+                flex-direction: row;
+                justify-content: center;
+            }
+            #pageheader nav 
+            {
+                min-width:400px;
+            }
+            #logo
+            {
+                width:80px;
+                height:80px;
+            }
+            main {
+            padding-top:200px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header id="pageheader">
+        <!--Start the logo and h1-->
+        <div id="fblogoheader">
+            <img src="Images/paws_logo.png" alt="Paws and Whi
+            skers Logo" id="logo">
+        <h1>Paws and Whiskers</h1>
+        </div>
+        <!-- End the logo and h1-->
+        <!--Start navigation-->
+        <nav>
+            <ul>
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">Our pets</a></li>
+                <li> <a href="#">Testimonials</a></li>
+                <li> <a href="#">About us</a></li>
+            </ul>
+        </nav>
+        <!--End navigation-->
+    </header>
+    <main>
+        <h2>Fixed Menu</h2>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, voluptate veritatis facilis dolores commodi assumenda. Sapiente, obcaecati magnam ab a animi beatae atque repellat praesentium fugit corrupti libero sequi pariatur nemo accusamus, perferendis rerum? Non totam sed nihil rem corrupti veritatis voluptates quasi aliquid eligendi ratione dolorem commodi debitis architecto dolores veniam reiciendis earum corporis qui deleniti exercitationem, blanditiis rerum. Porro culpa labore vero sint beatae, corrupti natus magnam accusamus nesciunt iusto? Voluptatum voluptatem voluptates error aperiam harum facilis tempora velit cum, nulla, expedita enim laboriosam dolores rem aliquam illum! Adipisci magni tenetur, placeat tempore officia nemo ab qui ratione.
+        </p>
+    </main>
+</body>
+</html>

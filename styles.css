@@ -1,6 +1,11 @@
+/* Mobile View - Default */
+:root{
+    
+}
 html
 {
 scroll-behavior: smooth;
+font-family: schoolbell;
 }
 
 
@@ -12,16 +17,15 @@ background-color:021941;
 min-height: 10rem;
 max-width: 70rem;
 margin: auto;
-background-color:#EA983D;
+background-color:hsl(39, 83%, 84%);
 padding:1rem;
-color: #5D3238;
-
 }
 
 #pageheader {
-background-color:#D34733;
+background-color:#E56772;
 min-height: auto;
 padding: 1rem;
+border-radius: 10px;
 }
 #pageheader .container
 {
@@ -34,33 +38,37 @@ padding: 1rem;
     height:6.25rem;
     background-color:#D7631A ;
     background-image:url(Images/Logo.jpg);
+    margin:auto;
 }
 
 #media {
 background-color:rgb(209,67,48);
 min-height: 10rem;
 padding: 1rem;
-background-image:url(Images/CoralineCircus.jpg) ;
+background-image:url(Images/Winnethepooh/Bwinnethepooh.png);
 background-size: cover;
 aspect-ratio: 16 / 9;
+border-radius: 10px;
 }
 
 #career {
-background-color:#52210E;
+background-color:#DB729E;
 
 min-height: 10rem;
 padding: 1rem;
-color: rgb(147,68,45);
+color:#d694b0 ;
+border-radius: 10px;
 }
 #pagecontent {
-
-background-color:#D7631A   ;
+background-color:#8ABC80;
 min-height: 10rem;
 padding: 1rem;
-color: rgb(147,68,45);
+color: #5b7b55;
+border-radius: 10px;
 }
 
-#pageheader .container{
+#pageheader .container
+{
     min-height: auto;
 }
 #pageheader nav {
@@ -71,13 +79,16 @@ color: rgb(147,68,45);
     list-style-type: none;
     text-align: none;
     margin:0;
-    padding:0;    
+    padding:0; 
+    
 }
 #pageheader nav ul li {
-    border:2px solid silver;
+    border:3px dotted #E56772;
     padding:1rem;
     margin:2px;
     border-radius: 10px;
+
+    
 }
 #pageheader nav ul li:hover
 {
@@ -85,24 +96,28 @@ color: rgb(147,68,45);
 }
 
 #semester1 {
-background-color:#D7631A;
+background-color:#bf9a75;
 min-height: 10rem;
 padding: 1rem;
-color:rgb(147,68,45);
+color:#7ab5c2;
+border-radius: 10px;
 }
 
 #semester2 {
-background-color:#52210E;
+background-color:#A3C1CF;
 min-height: 10rem;
 padding: 1rem;
-color: rgb(147,68,45);
+color:#424141;
+border-radius: 10px;
 }
 
 #pagefooter {
-background-color:hsl(32, 69%, 48%);
+background-color:#eca65b;
 min-height: auto;
 padding: 1rem;
-color: #5D3238;
+border:2px dashed #424141;
+border-radius: 10px;
+
 }
 
 #pagefooter .container{
@@ -111,9 +126,11 @@ color: #5D3238;
 }
 
 #aitools{
-background-color:hsl(32, 69%, 48%);
+background-color:#eca65b;
 padding: 1rem;
 text-align: center;
+border:2px dashed #424141;
+border-radius: 10px;
 }
 
 #aitools .container{
@@ -121,18 +138,28 @@ text-align: center;
     min-height: 20px;
 }
 #subfooter {
-background-color:hsl(12, 58%, 68%);
+background-color: #f77fa9;
 min-height: 10rem;
 padding: 1rem;
-color:rgb(147,68,45);
+color: #f77fa9;
 }
 
 audio {
 display: block;
 margin: auto;
-background-color: #f77fa9;
-border: 5px solid  #f3b2c8;
+background-color:#f3b2c8;
+border: 5px solid  #f77fa9; 
 }
+@media screen (min-width:500px){
+body{
+    background-color:pink;
+}
+#logo {
+    margin:0;
+}
+}
+
+
 blockquote
 {
     padding:1rem;
@@ -161,11 +188,10 @@ text-align: right;
 }
 
 #pagecontent
-{background-color:#D7631A;}    
+{background-color:#8bbc80;}    
 #career {
 
 }
 
 }
-
 
