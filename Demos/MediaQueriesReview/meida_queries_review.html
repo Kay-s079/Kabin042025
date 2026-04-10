@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries </title>
+    <style>
+        /* Mobile First Design */
+        body{
+            background-color: pink;
+        }
+        h1,h2{
+            color: aliceblue;
+            text-align: center;
+        }
+
+        /* Tablet and Desktop Design */
+        @media screen and (min-width:700px)
+        {
+            body{
+                background-color: #c6c6f3;
+            }
+            h1,h2 
+            {
+                color:#f3f3a9;
+            }
+        }
+
+        @media screen and (min-width:960px) 
+        {
+            body 
+            {
+                background-color: fuchsia;
+            }
+            h1,h2 
+            {
+                color: darkblue;
+            }
+        }
+        @media screen and (min-width:1280px) 
+        {
+            Body {
+                background-color: gray;
+            }
+            h1,h2 
+            {
+                color: pink;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <h1> Media Queries</h1>
+    <h2> Kaytlin Abina</h2>
+</body>
+</html>
