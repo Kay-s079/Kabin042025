@@ -12,6 +12,10 @@ font-family: schoolbell;
 body {
 background-color:021941;
 }
+h2, h1
+{
+    font-family:Patrick Hand SC;
+}
 
 .container {
 min-height: 10rem;
@@ -58,6 +62,7 @@ min-height: 10rem;
 padding: 1rem;
 color:#d694b0 ;
 border-radius: 10px;
+font-family: Pangolin;
 }
 #pagecontent {
 background-color:#8ABC80;
@@ -65,6 +70,7 @@ min-height: 10rem;
 padding: 1rem;
 color: #5b7b55;
 border-radius: 10px;
+font-family:Pangolin;
 }
 
 #pageheader .container
@@ -87,7 +93,7 @@ border-radius: 10px;
     padding:1rem;
     margin:2px;
     border-radius: 10px;
-
+    font-family: Pangolin;
     
 }
 #pageheader nav ul li:hover
@@ -101,6 +107,7 @@ min-height: 10rem;
 padding: 1rem;
 color:#7ab5c2;
 border-radius: 10px;
+font-family: Pangolin;
 }
 
 #semester2 {
@@ -109,6 +116,7 @@ min-height: 10rem;
 padding: 1rem;
 color:#424141;
 border-radius: 10px;
+font-family: Pangolin;
 }
 
 #pagefooter {
@@ -117,6 +125,7 @@ min-height: auto;
 padding: 1rem;
 border:2px dashed #424141;
 border-radius: 10px;
+font-family: Pangolin;
 
 }
 
@@ -131,6 +140,7 @@ padding: 1rem;
 text-align: center;
 border:2px dashed #424141;
 border-radius: 10px;
+font-family: Pangolin;
 }
 
 #aitools .container{
@@ -142,6 +152,7 @@ background-color: #f77fa9;
 min-height: 10rem;
 padding: 1rem;
 color: #f77fa9;
+font-family: Pangolin;
 }
 
 audio {
