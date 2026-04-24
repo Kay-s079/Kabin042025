@@ -6,13 +6,15 @@
 
 ### About me
 
+I am a highschool student learning how to use ReadMe
+
 #### skills
 
--html5
--css3
--Photoshop
--github
+- Html5
+- Css3
+- Photoshop
+- Github
 
 ### Current Projects
 
--pet store (flexbox pet store)
+- Pet store (Flexbox pet store)
