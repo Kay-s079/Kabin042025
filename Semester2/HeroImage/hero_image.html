@@ -61,6 +61,79 @@
             border-radius: 8px;
             font-weight:bold;
         }
+        .intro-content
+        {
+            background-color: white;
+            color:#333;
+            padding:1rem 1.5rem;
+            max-width:1200px;
+            margin:0 auto;
+            line-height:1.7;
+            border-radius:10px;
+        }
+        /* footer */
+        /* cards */
+        .services
+        {
+            padding: 50px 30px;
+            background-color: black;
+
+        }
+        .services h2 
+        {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size:2rem;
+        }
+        .fb-cards
+        {
+            border: 5px;
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap:1rem;
+        }
+        .card
+        {
+            background-color: white;
+            border:5px solid silver;
+            color:#333;
+            padding:20px;
+            border-radius: 10px;
+            text-align: center;
+            width: 308px;
+        }
+        .card h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+        }
+
+        .card p {
+            margin-bottom: 1rem;
+        }
+        .card a {
+            background-color:crimson;
+            display: inline-block;
+            padding:12px 24px 12px 24px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+        }
+        .card a:hover 
+        {
+            background-color: #E01345;
+        }
+
+        footer
+        {
+            background-color:#3E0D0A;
+            padding:20px;
+            border-top:5px solid white;
+            text-align:center;
+            color:white;
+            border-radius: 10px;
+        }
     </style>
 </head> 
 <body>
@@ -80,10 +153,15 @@
             </div>
         </section>
 
-        <section class="intro">
+        <section class="intro-content">
             <div class="hero-content">
                 <h2> About us</h2>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore asperiores ullam doloribus, architecto laudantium accusamus quod ducimus beatae nemo repellendus impedit dignissimos culpa perferendis at. Tempora, voluptates fuga! Ea, id. Sunt nulla aliquam voluptatibus ipsam!</p>
+                <p>Welcome to our website. We are dedicated to providing useful information, heipful resources, and engaging content for
+                our visitors. Our goal is to create a space where
+                users can quickly learn about what we offer and easily explore the different sections of the site. Whether you are here
+                to discover new features, read more about our services, or simply learn more about our mission, we hope this website
+                gives you a clear and enjovable experience. Take a moment to look through the Information below
+                and see how each section can help you better understand what we do and what we have to offer.</p>
             </div>
         </section>
 
@@ -91,23 +169,24 @@
             <h2> Our services </h2>
 
             <div class="fb-cards">
+            <div class="card">
             <h3> Card One</h3>
             <p> This is a Card. Add a short description.</p>
             <a href="#"> Read More</a>
-            </div>
-
-            <div class="fb-cards">
+                </div>
+                
+                <div class="card">
                 <h3> Card two</h3>
                 <p> This is a Card. Add a short description.</p>
                 <a href="#"> Read More</a>
-            </div>
-
-            <div class="fb-cards">
+                
+                </div>  
+                <div class="card">
                 <h3> Card Three</h3>
                 <p> This is a Card. Add a short description.</p>
                 <a href="#"> Read More</a>
-            </div>
-
+                </div>
+                </div>
 
         </section>
 

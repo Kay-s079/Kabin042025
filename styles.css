@@ -40,8 +40,9 @@ border-radius: 10px;
 {
     width:6.25rem;
     height:6.25rem;
-    background-color:none ;
-    background-image:url(Images/Winnethepooh/WinneThePoohLogo.psd);
+    background-color:red ;
+    background-image:url(Images/Winnethepooh/WinneThePoohLogo\ copy.png);
+    background-size: cover;
     margin:auto;
 }
 
